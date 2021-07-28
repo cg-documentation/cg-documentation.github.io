@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cgminer.info/ru/articles/crypto-07-28/</loc>
+    
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://cgminer.info/ru/articles/kit-07-27/</loc>
     
     <lastmod>2021-07-27T00:00:00+00:00</lastmod>
@@ -62,7 +71,7 @@
   <url>
     <loc>https://cgminer.info/ru/about/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -74,7 +83,7 @@
   <url>
     <loc>https://cgminer.info/ru/cookie/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,7 +95,7 @@
   <url>
     <loc>https://cgminer.info/ru/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -110,7 +119,7 @@
   <url>
     <loc>https://cgminer.info/ru/privacy/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -124,7 +133,7 @@
   <url>
     <loc>https://cgminer.info/ru/articles/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -136,7 +145,7 @@
   <url>
     <loc>https://cgminer.info/ru/blog/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -148,7 +157,7 @@
   <url>
     <loc>https://cgminer.info/ru/documentation/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -160,7 +169,7 @@
   <url>
     <loc>https://cgminer.info/ru/download/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -172,7 +181,7 @@
   <url>
     <loc>https://cgminer.info/ru/video/</loc>
       
-        <lastmod>2021-07-27T20:58:01+00:00</lastmod>
+        <lastmod>2021-07-28T20:03:01+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
