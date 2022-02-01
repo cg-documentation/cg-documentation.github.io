@@ -1,11 +1,11 @@
 var store = [{
-        "title": "CGMiner&#58; Комиссия, Системные Требования и Лимиты [2022]",
-        "excerpt":"CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)          Для начала вы можете скачать самую последнюю версию CGMiner 3.7.2 отсюда:   Скачать сейчас   Скачать (зеркало)   CGMiner имеет интерфейс командной строки. Для минимальной конфигурации введите в .bat файле:   CGMiner -a [алгоритм майнинга] -o [сервер пула] -u [имя пользователя или адрес кошелька]   Пример:   cgminer -o http://pool:port -u username -p password   Самый простой способ получить кошелек - зарегистрироваться на бирже криптовалют, например Huobi или Binance.   Для получения полного списка параметров конфигурации выполните:   CGMiner --help   Готовые шаблоны:   cgminer -o http://pool1:port -u pool1username -p pool1password -o http://pool2:port -u pool2usernmae -p pool2password   Читайте обновленный и  подробный гайд по настройке CGMiner.       ","categories": ["documentation"],
+        "title": "CGMiner&#58; Настройка - Как пользоваться программой [2022]",
+        "excerpt":"CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)          Для начала вы можете скачать самую последнюю версию CGMiner 3.7.2 отсюда:   Скачать сейчас   Скачать (зеркало)   Как запустить   CGMiner имеет интерфейс командной строки. Для минимальной конфигурации введите в .bat файле:   CGMiner -a [алгоритм майнинга] -o [сервер пула] -u [имя пользователя или адрес кошелька]   Пример:   cgminer -o http://pool:port -u username -p password   Самый простой способ получить кошелек - зарегистрироваться на бирже криптовалют, например Huobi или Binance.   Для получения полного списка команд CGMiner конфигурации выполните:   CGMiner --help   Готовые шаблоны:   cgminer -o http://pool1:port -u pool1username -p pool1password -o http://pool2:port -u pool2usernmae -p pool2password   Читайте обновленный и  подробный гайд по настройке CGMiner.        &nbsp;          Увеличение хешрейта майнинг фермы. Новый Team Black Miner +5% mh/s This is the second cryptocurrency mining software setup tutorial for how to setup cgminer on Windows 10        H1aM7vq-3SM  ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/setup/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "CGMiner&#58; Настройки, Команды, Параметры Командной Строки",
+        "title": "CGMiner&#58; Команды, аргументы и Параметры Командной Строки",
         "excerpt":"**          Скачать   Скачать   Параметры командной строки：   CGMiner -a algo -o protocol+socket_type://pool_host:pool_port -u wallet_address.worker:passwd  ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/arguments/",

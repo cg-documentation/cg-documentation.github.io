@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
-<title>CGMiner: Комиссия, Системные Требования и Лимиты [2022]</title>
+<title>CGMiner: Настройка - Как пользоваться программой [2022]</title>
 <meta name="description" content="CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)">
  <meta name="author" content="Con Kolivas">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="CGMiner">
-<meta property="og:title" content="CGMiner: Комиссия, Системные Требования и Лимиты [2022]">
+<meta property="og:title" content="CGMiner: Настройка - Как пользоваться программой [2022]">
 <meta property="og:url" content="https://cgminer.info/documentation/setup/">
  <meta property="og:description" content="CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)">
  <meta property="og:image" content="https://cgminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@ckpooldev">
- <meta name="twitter:title" content="CGMiner: Комиссия, Системные Требования и Лимиты [2022]">
+ <meta name="twitter:title" content="CGMiner: Настройка - Как пользоваться программой [2022]">
  <meta name="twitter:description" content="CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)">
  <meta name="twitter:url" content="https://cgminer.info/documentation/setup/">
    <meta name="twitter:card" content="summary">
@@ -155,13 +155,13 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </nav>
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-   <meta itemprop="headline" content="CGMiner: Комиссия, Системные Требования и Лимиты [2022]">
+   <meta itemprop="headline" content="CGMiner: Настройка - Как пользоваться программой [2022]">
    <meta itemprop="description" content="CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)">
    <meta itemprop="datePublished" content="May 29, 2021">
    <meta itemprop="dateModified" content="February 01, 2022"> 
    <div class="page__inner-wrap">
       <header>
-		 <h1 id="page-title" class="page__title" itemprop="headline">CGMiner: Комиссия, системные требования и лимиты
+		 <h1 id="page-title" class="page__title" itemprop="headline">CGMiner: Настройка - Как пользоваться программой [2022]
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
   менее 1 мин на чтение
@@ -172,6 +172,11 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
            <nav class="toc">
             <header><h4 class="nav__title">
 <i class="fas fa-file-alt"></i> Содержание</h4></header>
+             <ul class="toc__menu">
+ <li>
+<a href="#%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C">Как запустить</a>
+</li>
+</ul>
            </nav>
          </aside>
        <p><em>CGMiner требует Windows x64 (Windows 7, Windows 10 и т.д.) Или Linux x64 (проверено на Ubuntu LTS и стабильной версии Debian)</em>
@@ -182,18 +187,32 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <p>Для начала вы можете скачать самую последнюю версию CGMiner 3.7.2 отсюда:</p>
 <p><a href="https://cryptomining-blog.com/wp-content/download/cgminer-3.7.2-windows.rar" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Скачать сейчас</a></p>
 <p><a href="https://cryptomining-blog.com/wp-content/download/cgminer-3.7.2-windows.rar" class="btn btn--danger btn--x-large" rel="nofollow noopener" target="_blank">Скачать (зеркало)</a></p>
+<h2 id="как-запустить">Как запустить</h2>
 <p>CGMiner имеет интерфейс командной строки. Для минимальной конфигурации введите в .bat файле:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">CGMiner -a [алгоритм майнинга] -o [сервер пула] -u [имя пользователя или адрес кошелька]</code></p>
 <p>Пример:</p>
 <p><code class="language-plaintext highlighter-rouge">cgminer -o http://pool:port -u username -p password</code></p>
 <p class="notice--success">Самый простой способ получить кошелек - зарегистрироваться на бирже криптовалют, например <a href="https://www.huobi.com/en-us/topic/double-reward/?invite_code=a6vc4223" rel="nofollow noopener" target="_blank">Huobi</a> или <a href="https://accounts.binance.com/ru/register?ref=W3086IL6" rel="nofollow noopener" target="_blank">Binance</a>.</p>
-<p>Для получения полного списка параметров конфигурации выполните:</p>
+<p>Для получения полного <a href="/ru/documentation/arguments/">списка команд CGMiner</a> конфигурации выполните:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CGMiner --help
 </code></pre></div></div>
 <p>Готовые шаблоны:</p>
 <p><code class="language-plaintext highlighter-rouge">cgminer -o http://pool1:port -u pool1username -p pool1password -o http://pool2:port -u pool2usernmae -p pool2password</code></p>
 <p class="notice--success">Читайте обновленный и  <a href="https://miningsoft.org/en/miners/cgminer/" rel="nofollow noopener" target="_blank">подробный гайд по настройке CGMiner</a>.</p>
 <p><a href="/assets/images/mining/mining_rig_1700.jpg" class="image-popup"> <img src="/assets/images/mining/mining_rig_1700.jpg" alt="mining rig" loading="lazy" decoding="async"> </a></p>
+<p> </p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/KkdmPnTF8JQ">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/KkdmPnTF8JQ">
+<span class="bold" itemprop="name" id="Увеличение хешрейта майнинг фермы. Новый Team Black Miner +5% mh/s">Увеличение хешрейта майнинг фермы. Новый Team Black Miner +5% mh/s</span>
+<div itemprop="description"><p>This is the second cryptocurrency mining software setup tutorial for how to setup cgminer on Windows 10</p></div>
+<meta itemprop="uploadDate" content="2018-01-20">
+<meta itemprop="duration" content="PT2M19S">
+<div class="youtube-player" data-id="KkdmPnTF8JQ"></div>
+</div>
+<p>H1aM7vq-3SM</p>
      </section>
 </div>
 		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения: <time datetime="2022-02-01T00:00:00+00:00">01.02.2022</time></p>
@@ -314,13 +333,13 @@ File: *cgminer.exe, <br>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Поделиться</h4>
-  <a href="https://twitter.com/intent/tweet?via=ckpooldev&amp;text=CGMiner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F%2C+%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5+%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8+%D0%9B%D0%B8%D0%BC%D0%B8%D1%82%D1%8B+%5B2022%5D%20https%3A%2F%2Fcgminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=ckpooldev&amp;text=CGMiner%26%2358%3B+%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0+-+%D0%9A%D0%B0%D0%BA+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BE%D0%B9+%5B2022%5D%20https%3A%2F%2Fcgminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcgminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
   <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fcgminer.info%2Fdocumentation%2Fsetup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
  <nav class="pagination">
       <a href="#" class="pagination--pager disabled">Предыдущая</a>
-      <a href="/documentation/arguments/" class="pagination--pager" title="CGMiner: Настройки, Команды, Параметры Командной Строки
+      <a href="/documentation/arguments/" class="pagination--pager" title="CGMiner: Команды, аргументы и Параметры Командной Строки
 ">Следующая</a>
  </nav>
   <!-- comments -->
