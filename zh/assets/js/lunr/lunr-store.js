@@ -5,8 +5,8 @@ var store = [{
         "url": "https://cgminer.info/documentation/setup/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "CGMiner&#58; 命令行参数",
-        "excerpt":"**          下载地址   从这里下载   命令行参数   ","categories": ["documentation"],
+        "title": "CGMiner - 命令行参数和选项",
+        "excerpt":"您必须优化您的 cgminer.conf 和 cgminer.bat 文件，以生成特定硬件装备支持的吞吐量和散列的最佳组合。          下载地址   从这里下载   命令行参数   ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/arguments/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"
