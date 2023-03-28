@@ -1,6 +1,6 @@
 var store = [{
-        "title": "CGMiner Setup Guide [2022]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by CGMiner.          You can download CGMiner 3.7.2 from here:   Download Now   Download (mirror)   CGMiner 有一个命令行界面。 对于最小配置，请在 .bat 文件中输入： CGMiner -a [挖矿算法] -o [矿池服务器] -u [用户名或钱包地址]   例子：   cgminer -o http://pool:port -u wallet_address -p password   获取钱包最简单的方法是在 Huobi 或 Binance。   有关配置选项的完整列表，请运行：   CGMiner --help   Linux:  Under Linux you need to replace cgminer.exe with ./cgminer in the command-line examples below.        ","categories": ["documentation"],
+        "title": "CGMiner Setup Guide [2023]",
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by CGMiner.          You can download CGMiner 3.7.2 from here:   Download Now   Download (mirror)   CGMiner 有一个命令行界面。 对于最小配置，请在 .bat 文件中输入： CGMiner -a [挖矿算法] -o [矿池服务器] -u [用户名或钱包地址]   例子：   cgminer -o http://pool:port -u wallet_address -p password   获取钱包最简单的方法是在 Huobi 或 Binance。   有关配置选项的完整列表，请运行：   CGMiner --help   Linux:  Under Linux you need to replace cgminer.exe with ./cgminer in the command-line examples below.   The software supports the following algorithms:      Scrypt   SHA-256   NeoScrypt   CryptoNight        ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/setup/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"

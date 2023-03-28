@@ -41,7 +41,7 @@
       "url": "https://cgminer.info/assets/images/logo2.png"
     }
   },
-  "dateModified": "2023-03-07T00:00:00-05:00"
+  "dateModified": "2023-03-28T00:00:00-04:00"
 }
 </script>
  <meta name="google-site-verification" content="MgaRmQFgT8jLPJJfc_eiqaFiDNxrN0BwCTgsJNiI2Po">
@@ -150,7 +150,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <div id="main" role="main" class="phe-vi">
  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
    <meta itemprop="headline" content="CGMiner 3.7.2 Download (Windows 10) AMD, Doge [2023]">
-   <meta itemprop="dateModified" content="March 07, 2023">
+   <meta itemprop="dateModified" content="March 28, 2023">
    <section class="page__content" itemprop="text">
       <div class="page__hero--overlay" style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/tim-background.jpg');">
 <div class="tim-header-center tim-vi">
@@ -253,7 +253,7 @@ suitably sponsored.</p>
 </li>
 <li>Unzip downloaded package and open the .bat file in the text editor
 		</li>
-<li>In the folder that contains the miner, you should create or edit a file with .bat extension. You can do this in any text editor (for example, Notepad or Notepad++). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called <span class="accent-txt">Ehereum-binance_pool.bat</span>) should contain the following text (Step 2):
+<li>In the folder that contains the miner, you should create or edit a file with .bat extension. You can do this in any text editor (for example, Notepad or Notepad++). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called <span class="accent-txt">Dogecoin-binance_pool.bat</span>) should contain the following text (Step 2):
 		</li>
 </ul>
 					<p class="tim-attention">Attention! For security reasons, Windows may stop you from opening the bat file. In this case, you should permit it to open in the pop-up window.</p>
@@ -386,134 +386,38 @@ Use templates (.bat files examples) to apply a predefined configuration to one o
 <div class="my-title"><a id="FAQ">FAQ</a></div>
 	<div class="tim-vi2">
 	<p class="tim-st">What is an ASIC?</p>
-They are Application Specify Integrated Circuit devices and provide the
-highest performance per unit power due to being dedicated to only one purpose.
-They are the only meaningful way to mine bitcoin today.
+They are Application Specify Integrated Circuit devices and provide the highest performance per unit power due to being dedicated to only one purpose. They are the only meaningful way to mine bitcoin today.
 	<p class="tim-st">Help, I've started cgminer and everything reads zero!?</p>
-Welcome to bitcoin mining. Your computer by itself cannot mine bitcoin no
-matter how powerful it is. You have to purchase dedicated mining hardware
-called ASICs to plug into your computer. See Q regarding ASICs below.
-	<p class="tim-st">I have multiple USB stick devices but I can't get them all to work at once?</p>
-	Very few USB hubs deliver the promised power required to run as many devices
-as they fit if all of them draw power from USB.
-	<p class="tim-st">I've plugged my devices into my USB hub but nothing shows up?</p>
-	RPis and Windows have incomplete or non-standard USB3 support so they may
-never work. It may be possible to get a USB3 hub to work by plugging it into
-a USB2 hub. When choosing a hub, USB2 hubs are preferable whenever possible
-due to better support all round.
-	<p class="tim-st">Can I mine on servers from different networks (eg xxxcoin and bitcoin) at
+Welcome to bitcoin mining. Your computer by itself cannot mine bitcoin no matter how powerful it is. You have to purchase dedicated mining hardware called ASICs to plug into your computer. See Q regarding ASICs below.
+<p class="tim-st">I have multiple USB stick devices but I can't get them all to work at once?</p>
+	Very few USB hubs deliver the promised power required to run as many devices as they fit if all of them draw power from USB.
+<p class="tim-st">I've plugged my devices into my USB hub but nothing shows up?</p>
+	RPis and Windows have incomplete or non-standard USB3 support so they may never work. It may be possible to get a USB3 hub to work by plugging it into a USB2 hub. When choosing a hub, USB2 hubs are preferable whenever possible due to better support all round.
+<p class="tim-st">Can I mine on servers from different networks (eg xxxcoin and bitcoin) at
 the same time?</p>
-No, cgminer keeps a database of the block it's working on to ensure it does
-not work on stale blocks, and having different blocks from two networks would
-make it invalidate the work from each other.
-	<p class="tim-st">Can I configure cgminer to mine with different login credentials or pools for each separate device?</p>
-No.	
-	<p class="tim-st">Can I put multiple pools in the config file?</p>
-Yes, check the example.conf file. Alternatively, set up everything either on
-the command line or via the menu after startup and choose settings-&gt;write
-config file and the file will be loaded one each startup	
-	<p class="tim-st">The build fails with gcc is unable to build a binary.</p>
-Remove the "-march=native" component of your CFLAGS as your version of gcc
-does not support it. Also -O2 is capital o 2, not zero 2.
-	<p class="tim-st">Can you implement feature X?</p>
-I can, but time is limited, and people who donate are more likely to get
-their feature requests implemented.
-	<p class="tim-st">Work keeps going to my backup pool even though my primary pool hasn't
-failed?</p>
-Cgminer checks for conditions where the primary pool is lagging and will
-pass some work to the backup servers under those conditions. The reason for
-doing this is to try its absolute best to keep the devices working on something
-useful and not risk idle periods. You can disable this behaviour with the
-option --failover-only.
-	<p class="tim-st">Is this a virus?</p>
-Cgminer is being packaged with other trojan scripts and some antivirus
-software is falsely accusing cgminer.exe as being the actual virus, rather
-than whatever it is being packaged with. If you installed cgminer yourself,
-then you do not have a virus on your computer. Complain to your antivirus
-software company. They seem to be flagging even source code now from cgminer
-as viruses, even though text source files can't do anything by themself.
-	<p class="tim-st">Can you modify the display to include more of one thing in the output and
-less of another, or can you change the quiet mode or can you add yet another
-output mode?</p>
-Everyone will always have their own view of what's important to monitor.
-The defaults are very sane and I have very little interest in changing this
-any further. There is far more detail in the API output than can be reasonably
-displayed on the small console window, and using an external interface such
-as miner.php is much more useful for setups with many devices.
-	<p class="tim-st">What are the best parameters to pass for X pool/hardware/device.</p>
-Virtually always, the DEFAULT parameters give the best results. Most user
-defined settings lead to worse performance.
-	<p class="tim-st">What happened to CPU and GPU mining?</p>
-Their efficiency makes them irrelevant in the bitcoin mining world today
-and the author has no interest in supporting alternative coins that are better
-mined by these devices.
-	<p class="tim-st">GUI version?</p>
-No. The RPC interface makes it possible for someone else to write one
-though.
-	<p class="tim-st">I'm having an issue. What debugging information should I provide?</p>
-Start cgminer with your regular commands and add -D -T --verbose and provide
-the full startup output and a summary of your hardware and operating system.
-	<p class="tim-st">Why don't you provide win64 builds?</p>
-Win32 builds work everywhere and there is precisely zero advantage to a
-64 bit build on windows.
-	<p class="tim-st">Is it faster to mine on windows or linux?</p>
-It makes no difference in terms of performance. It comes down to choice of
-operating system for their various features and your comfort level. However
-linux is the primary development platform and is virtually guaranteed to be
-more stable.
-	<p class="tim-st">My network gets slower and slower and then dies for a minute?</p>
-Try the --net-delay option if you are on a GBT server. This does nothing
-with stratum mining.
-	<p class="tim-st">How do I tune for p2pool?</p>
-It is also recommended to use --failover-only since the work is effectively
-like a different block chain, and not enabling --no-submit-stale. If mining with
-a BFL (fpga) minirig, it is worth adding the --bfl-range optio	
-	<p class="tim-st">I run PHP on windows to access the API with the example miner.php. Why does
-it fail when php is installed properly but I only get errors about Sockets not
-working in the logs? Read: <a href="https://www.php.net/manual/en/sockets.installation.php" rel="nofollow noopener" target="_blank">PHP: Installation - Manual
-</a></p>
-	<p class="tim-st">What is a PGA?</p>
-Cgminer supports 3 FPGAs: BitForce, Icarus and ModMiner.
-They are Field-Programmable Gate Arrays that have been programmed to do Bitcoin
-mining. Since the acronym needs to be only 3 characters, the "Field-" part has
-been skipped.
-	<p class="tim-st">What is stratum and how do I use it?</p>
-Stratum is a protocol designed for pooled mining in such a way as to
-minimise the amount of network communications, yet scale to hardware of any
-speed. With versions of cgminer 2.8.0+, if a pool has stratum support, cgminer
-will automatically detect it and switch to the support as advertised if it can.
-If you input the stratum port directly into your configuration, or use the
-special prefix "stratum+tcp://" instead of "http://", cgminer will ONLY try to
-use stratum protocol mining. The advantages of stratum to the miner are no
-delays in getting more work for the miner, less rejects across block changes,
-and far less network communications for the same amount of mining hashrate. If
-you do NOT wish cgminer to automatically switch to stratum protocol even if it
-is detected, add the --fix-protocol option.
-	<p class="tim-st">Q: Why don't the statistics add up: Accepted, Rejected, Stale, Hardware Errors,
-Diff1 Work, etc. when mining greater than 1 difficulty shares?</p>
-As an example, if you look at 'Difficulty Accepted' in the RPC API, the number
-of difficulty shares accepted does not usually exactly equal the amount of work
-done to find them. If you are mining at 8 difficulty, then you would expect on
-average to find one 8 difficulty share, per 8 single difficulty shares found.
-However, the number is actually random and converges over time, it is an average,
-not an exact value, thus you may find more or less than the expected average.	
-	<p class="tim-st">My keyboard input momentarily pauses or repeats keys every so often on
-windows while mining?</p>
-The USB implementation on windows can be very flaky on some hardware and
-every time cgminer looks for new hardware to hotplug it it can cause these
-sorts of problems. You can disable hotplug with:
---hotplug 0
-	<p class="tim-st">What should my Work Utility (WU) be?</p>
-Work utility is the product of hashrate * luck and only stabilises over a
-very long period of time. Assuming all your work is valid work, bitcoin mining
-should produce a work utility of approximately 1 per 71.6MH. This means at
-5GH you should have a WU of 5000 / 71.6 or ~ 69. You cannot make your machine
-do "better WU" than this - it is luck related. However you can make it much
-worse if your machine produces a lot of hardware errors producing invalid work.	
-	<p class="tim-st">What should I build in for a generic distribution binary?</p>
-There are a number of drivers that expect to be used on dedicated standalone
-hardware. That said, the drivers that are designed to work generically with
-USB on any hardware are the following:
+No, cgminer keeps a database of the block it's working on to ensure it does not work on stale blocks, and having different blocks from two networks would make it invalidate the work from each other.
+<p class="tim-st">Can I configure cgminer to mine with different login credentials or pools for each separate device?</p>No.	 
+<p class="tim-st">Can I put multiple pools in the config file?</p>Yes, check the example.conf file. Alternatively, set up everything either on the command line or via the menu after startup and choose settings-&gt;write config file and the file will be loaded one each startup	 
+<p class="tim-st">The build fails with gcc is unable to build a binary.</p>Remove the "-march=native" component of your CFLAGS as your version of gcc does not support it. Also -O2 is capital o 2, not zero 2. 
+<p class="tim-st">Can you implement feature X?</p>I can, but time is limited, and people who donate are more likely to get their feature requests implemented. 
+<p class="tim-st">Work keeps going to my backup pool even though my primary pool hasn't failed?</p>Cgminer checks for conditions where the primary pool is lagging and will pass some work to the backup servers under those conditions. The reason for doing this is to try its absolute best to keep the devices working on something useful and not risk idle periods. You can disable this behaviour with the option --failover-only. 
+<p class="tim-st">Is this a virus?</p>Cgminer is being packaged with other trojan scripts and some antivirus software is falsely accusing cgminer.exe as being the actual virus, rather than whatever it is being packaged with. If you installed cgminer yourself, then you do not have a virus on your computer. Complain to your antivirus software company. They seem to be flagging even source code now from cgminer as viruses, even though text source files can't do anything by themself. 
+<p class="tim-st">Can you modify the display to include more of one thing in the output and less of another, or can you change the quiet mode or can you add yet another output mode?</p>Everyone will always have their own view of what's important to monitor. The defaults are very sane and I have very little interest in changing this any further. There is far more detail in the API output than can be reasonably displayed on the small console window, and using an external interface such as miner.php is much more useful for setups with many devices.      
+<p class="tim-st">What are the best parameters to pass for X pool/hardware/device.</p>Virtually always, the DEFAULT parameters give the best results. Most user defined settings lead to worse performance. 
+<p class="tim-st">What happened to CPU and GPU mining?</p>Their efficiency makes them irrelevant in the bitcoin mining world today and the author has no interest in supporting alternative coins that are better mined by these devices. 
+<p class="tim-st">GUI version?</p>No. The RPC interface makes it possible for someone else to write one though. 
+<p class="tim-st">I'm having an issue. What debugging information should I provide?</p>Start cgminer with your regular commands and add -D -T --verbose and provide the full startup output and a summary of your hardware and operating system. 
+<p class="tim-st">Why don't you provide win64 builds?</p>Win32 builds work everywhere and there is precisely zero advantage to a 64 bit build on windows. 
+<p class="tim-st">Is it faster to mine on windows or linux?</p>It makes no difference in terms of performance. It comes down to choice of operating system for their various features and your comfort level. However linux is the primary development platform and is virtually guaranteed to be more stable. 
+<p class="tim-st">My network gets slower and slower and then dies for a minute?</p>Try the --net-delay option if you are on a GBT server. This does nothing with stratum mining. 
+<p class="tim-st">How do I tune for p2pool?</p>It is also recommended to use --failover-only since the work is effectively like a different block chain, and not enabling --no-submit-stale. If mining with a BFL (fpga) minirig, it is worth adding the --bfl-range optio	 
+<p class="tim-st">I run PHP on windows to access the API with the example miner.php. Why does it fail when php is installed properly but I only get errors about Sockets not working in the logs? Read: <a href="https://www.php.net/manual/en/sockets.installation.php" rel="nofollow noopener" target="_blank">PHP: Installation - Manual </a></p>
+<p class="tim-st">What is a PGA?</p>Cgminer supports 3 FPGAs: BitForce, Icarus and ModMiner. They are Field-Programmable Gate Arrays that have been programmed to do Bitcoin mining. Since the acronym needs to be only 3 characters, the "Field-" part has been skipped.  
+<p class="tim-st">What is stratum and how do I use it?</p>Stratum is a protocol designed for pooled mining in such a way as to minimise the amount of network communications, yet scale to hardware of any speed. With versions of cgminer 2.8.0+, if a pool has stratum support, cgminer will automatically detect it and switch to the support as advertised if it can. If you input the stratum port directly into your configuration, or use the special prefix "stratum+tcp://" instead of "http://", cgminer will ONLY try to use stratum protocol mining. The advantages of stratum to the miner are no delays in getting more work for the miner, less rejects across block changes, and far less network communications for the same amount of mining hashrate. If you do NOT wish cgminer to automatically switch to stratum protocol even if it is detected, add the --fix-protocol option. 
+<p class="tim-st">Q: Why don't the statistics add up: Accepted, Rejected, Stale, Hardware Errors, Diff1 Work, etc. when mining greater than 1 difficulty shares?</p>As an example, if you look at 'Difficulty Accepted' in the RPC API, the number of difficulty shares accepted does not usually exactly equal the amount of work done to find them. If you are mining at 8 difficulty, then you would expect on average to find one 8 difficulty share, per 8 single difficulty shares found. However, the number is actually random and converges over time, it is an average, not an exact value, thus you may find more or less than the expected average.	 
+<p class="tim-st">My keyboard input momentarily pauses or repeats keys every so often on windows while mining?</p>The USB implementation on windows can be very flaky on some hardware and every time cgminer looks for new hardware to hotplug it it can cause these sorts of problems. You can disable hotplug with: --hotplug 0 
+<p class="tim-st">What should my Work Utility (WU) be?</p>Work utility is the product of hashrate * luck and only stabilises over a very long period of time. Assuming all your work is valid work, bitcoin mining should produce a work utility of approximately 1 per 71.6MH. This means at 5GH you should have a WU of 5000 / 71.6 or ~ 69. You cannot make your machine do "better WU" than this - it is luck related. However you can make it much worse if your machine produces a lot of hardware errors producing invalid work.	 
+<p class="tim-st">What should I build in for a generic distribution binary?</p>There are a number of drivers that expect to be used on dedicated standalone hardware. That said, the drivers that are designed to work generically with USB on any hardware are the following:
 <code><pre>--enable-avalon
 --enable-avalon2
 --enable-avalon4
