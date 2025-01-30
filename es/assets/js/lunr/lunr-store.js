@@ -1,5 +1,5 @@
 var store = [{
-        "title": "Argumentos de la línea de comandos de CGMiner [2023]",
+        "title": "Argumentos de la línea de comandos de CGMiner [2025]",
         "excerpt":"You can use this list as a reference for all Launch Parameters supported by CGMiner.          You can download CGMiner 3.7.2 from here:   Download Now   Download (mirror)   CGMiner tiene una interfaz de línea de comandos. Para una configuración mínima, ingrese en el archivo .bat: CGMiner -a [algoritmo de minería] -o [servidor de grupo] -u [nombre de usuario o dirección de billetera]   Ejemplo:   cgminer -o http://pool:puerto -u nombre de usuario -p contraseña   La forma más fácil de obtener una billetera es registrarse en un intercambio de criptomonedas como Huobi o Binance.   Para obtener una lista completa de las opciones de configuración, ejecute:   CGMiner --help   Linux:  Under Linux you need to replace CGMiner.exe with ./CGMiner in the command-line examples below.   The software supports the following algorithms:      Scrypt   SHA-256   NeoScrypt   CryptoNight       ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/setup/",
@@ -11,8 +11,8 @@ var store = [{
         "url": "https://cgminer.info/documentation/changelog/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "Descargar CGMiner 3.7.2 - Minero ASIC, GPU y FPGA [2022]",
-        "excerpt":" Get started with CGMiner  \t\t \t\t\t \t\tVersion: 3.7.2  \t\tFile: *cgminer.exe,    \t\tSHA256: 417b22681a716e2481fde1fcaed96d66a5716a188186a4ae765d558d4a7ec2f5  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t           La nueva versión obsoleta de CGMiner está lista.   Puede descargar CGMiner 3.7.2 desde aquí:   Descargar ahora   Descargar (espejo)   Dentro del archivo encontrará un archivo README.txt con instrucciones de instalación.   Asegúrese de reemplazar la dirección del grupo y la billetera por lo que está usando en todos los archivos.        ","categories": ["download"],
+        "title": "Descargar CGMiner 3.7.2 - Minero ASIC, GPU y FPGA [2025]",
+        "excerpt":" Get started with CGMiner  \t\t \t\t\t \t\tVersion: 3.7.2  \t\tFile: *cgminer.exe,    \t\tSHA256: 417b22681a716e2481fde1fcaed96d66a5716a188186a4ae765d558d4a7ec2f5  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t           La nueva versión obsoleta de CGMiner está lista.   Se trata de un minero de GPU multihilo, FPGA y CPU con monitorización de GPU ATI, (over)clocking y soporte de fanspeed para bitcoin y monedas derivadas.   Puede descargar CGMiner 3.7.2 desde aquí:   Descargar ahora   Descargar (espejo)   Dentro del archivo encontrará un archivo README.txt con instrucciones de instalación.   Asegúrese de reemplazar la dirección del grupo y la billetera por lo que está usando en todos los archivos.        ","categories": ["download"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/download/3.7.2/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"

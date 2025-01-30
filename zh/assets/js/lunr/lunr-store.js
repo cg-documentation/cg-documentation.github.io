@@ -1,5 +1,5 @@
 var store = [{
-        "title": "CGMiner Setup Guide [2023]",
+        "title": "CGMiner Setup Guide [2025]",
         "excerpt":"You can use this list as a reference for all Launch Parameters supported by CGMiner.          You can download CGMiner 3.7.2 from here:   Download Now   Download (mirror)   CGMiner 有一个命令行界面。 对于最小配置，请在 .bat 文件中输入： CGMiner -a [挖矿算法] -o [矿池服务器] -u [用户名或钱包地址]   例子：   cgminer -o http://pool:port -u wallet_address -p password   获取钱包最简单的方法是在 Huobi 或 Binance。   有关配置选项的完整列表，请运行：   CGMiner --help   Linux:  Under Linux you need to replace cgminer.exe with ./cgminer in the command-line examples below.   The software supports the following algorithms:      Scrypt   SHA-256   NeoScrypt   CryptoNight        ","categories": ["documentation"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/documentation/setup/",
@@ -17,7 +17,7 @@ var store = [{
         "url": "https://cgminer.info/documentation/changelog/",
         "teaser": "https://cgminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "下载 CGMiner 3.7.2 - ASIC、GPU 和 FPGA 矿工 [2022]",
+        "title": "下载 CGMiner 3.7.2 - ASIC、GPU 和 FPGA 矿工 [2025]",
         "excerpt":" Get started with CGMiner  \t\t \t\t\t \t\tVersion: 3.7.2  \t\tFile: *cgminer.exe,    \t\tSHA256: 417b22681a716e2481fde1fcaed96d66a5716a188186a4ae765d558d4a7ec2f5  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t           新的 CGMiner 旧版本已准备就绪。   你可以从这里下载 CGMiner 3.7.2：   Download Now   Download (mirror)   在存档中，您将找到包含安装说明的文件 README.txt。   确保将池和钱包地址替换为您在所有文件中使用的地址。        ","categories": ["download"],
         "tags": ["CGMiner"],
         "url": "https://cgminer.info/download/3.7.2/",
